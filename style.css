@@ -13,8 +13,8 @@
    height: 100px;
 }
 .square:nth-child(2n){
-    background-color: red;
+    background-color: #deb887;
 }
 .square:nth-child(2n+1){
-    background-color: black;
+    background-color: #a52a2a;
 }
