@@ -1,11 +1,20 @@
-h1{
-    text-decoration: underline #dda0dd wavy;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    font-size: 40px;
-    font-weight: 100;
-    font-family: monospace;
-    
+#board {
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    flex-wrap: wrap;
+  }
 
+
+.square{
+   width: 100px;
+   box-sizing: border-box;
+   border: 1px solid black;
+   height: 100px;
+}
+.square:nth-child(2n){
+    background-color: red;
+}
+.square:nth-child(2n+1){
+    background-color: black;
 }
