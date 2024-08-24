@@ -1,11 +1,11 @@
 h1{
-    color: #0000ff;
-    background-color: #000000;
-}
-p{
-    color: #ffebcd;
-}
-button{
-   color: green;
-   background-color: #ff0000;
+    text-decoration: underline #dda0dd wavy;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: monospace;
+    
+
 }
