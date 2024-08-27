@@ -1,20 +1,16 @@
-#board {
-    display: flex;
-    margin: 0 auto;
-    width: 500px;
-    flex-wrap: wrap;
-  }
-
-
-.square{
-   width: 100px;
-   box-sizing: border-box;
-   border: 1px solid black;
-   height: 100px;
+.square1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #a52a2a;
+    background-color: bisque;
+    position: relative;
 }
-.square:nth-child(2n){
-    background-color: #deb887;
-}
-.square:nth-child(2n+1){
-    background-color: #a52a2a;
+.square2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #a52a2a;
+    background-color: yellow;
+    position: absolute;
+    bottom:0px;
+    left: 20px;
 }
