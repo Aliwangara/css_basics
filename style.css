@@ -10,6 +10,7 @@ div{
     height: 100px;
     width: 300px;
     background-color: white;
+    transition: backgournd-color 0.4s, box-shadow 0.3s, transform 0.2s;
 }
 
 div:hover{
