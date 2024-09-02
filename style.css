@@ -3,14 +3,31 @@
     height: 300px;
     border: 1px solid #a52a2a;
     background-color: bisque;
-    position: relative;
+    transition: 1s 0.3s;
+}
+.square1:hover{
+    text-align: center;
+
 }
 .square2{
     width: 200px;
     height: 200px;
     border: 1px solid #a52a2a;
     background-color: yellow;
-    position: absolute;
-    bottom:0px;
-    left: 20px;
+    transition: 0.8s 0.4s;
+}
+
+.square2:hover{
+    text-align: center;
+}
+.square3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    transition: margin-left 3s;
+}
+.square3:hover{
+    margin-left: 1000px;
+    transition-timing-function: ease-in-out;
 }
