@@ -6,18 +6,14 @@ body{
     height: 100vh;
 
 }
-button{
-    background: none;
-    color:yellow;
-    border: 2px solid;
-    padding: 1em 2em;
-    font-size: 1em;
-    transition: color 0.3s, border-color 0.2s, box-shadow 0.1s;
+div{
+    height: 100px;
+    width: 300px;
+    background-color: white;
 }
-button:hover{
-    color: white;
-    border-color: #c0e27f;
-    box-shadow:  0em 0.5em 0.5em -0.4em #c0e27f;
-    transform: translateY(-0.25em);
-    
+
+div:hover{
+    background-color: red;
+    box-shadow: 0em 0.5em 0.7em -0.4em white;
+    transform: translateY(-0.5em);
 }
