@@ -1,33 +1,23 @@
-.square1{
-    width: 300px;
-    height: 300px;
-    border: 1px solid #a52a2a;
-    background-color: bisque;
-    transition: 1s 0.3s;
-}
-.square1:hover{
-    text-align: center;
+body{
+    background-color: #151b29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 
 }
-.square2{
-    width: 200px;
-    height: 200px;
-    border: 1px solid #a52a2a;
-    background-color: yellow;
-    transition: 0.8s 0.4s;
+button{
+    background: none;
+    color:yellow;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.3s, border-color 0.2s, box-shadow 0.1s;
 }
-
-.square2:hover{
-    text-align: center;
-}
-.square3{
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    background-color: aquamarine;
-    transition: margin-left 3s;
-}
-.square3:hover{
-    margin-left: 1000px;
-    transition-timing-function: ease-in-out;
+button:hover{
+    color: white;
+    border-color: #c0e27f;
+    box-shadow:  0em 0.5em 0.5em -0.4em #c0e27f;
+    transform: translateY(-0.25em);
+    
 }
